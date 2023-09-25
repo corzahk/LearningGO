@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
+// reclect y TypeOf
+// reflec.typeOf sirve para ver que tipo de dato es  string, entero, float etc...
+func main() {
+	var string1 string = "algo ñangú"
+	fmt.Println(reflect.TypeOf(string1))
+}
+
+/*
 //tipos de datos
 func main() {
 	var string string = "texto"
@@ -47,7 +58,7 @@ func main() {
 	fmt.Println(entero_uint64)
 	fmt.Println("------------------------------------")
 }
-
+*/
 /*
 // variables  y constantes
 const MiConstante = "El valor de mi constante"
