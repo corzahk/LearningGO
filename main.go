@@ -2,13 +2,39 @@ package main
 
 import "fmt"
 
+//condicionales
+func main() {
+
+	/*
+		operadores de comparacion
+		x == y ||es igual x igual a y?
+		x != y ||es x diferente de y?
+		x < y  ||es x menor que y
+		x > y  || es x mayor que y
+		x >= y  || es x mayor o igual que y?
+	*/
+	edad := 25
+	if edad >= 17 {
+		fmt.Println("Es mayor de edad")
+	} else {
+		fmt.Println("Es menor de edad")
+	}
+
+	//declarar variable en una condicion
+	if variable := 2; variable == 2 {
+		fmt.Println("----------------")
+		fmt.Println("variables es igual a 2")
+	}
+}
+
+/*
 //punteros
 // & sirve para poder acceder al valor de la memoria de esa variable
 func main() {
 	color := "rojo"
 	fmt.Println(&color)
 }
-
+*/
 /*
 import (
 	"fmt"
