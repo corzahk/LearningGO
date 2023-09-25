@@ -1,17 +1,26 @@
 package main
 
+import "fmt"
+
+//punteros
+// & sirve para poder acceder al valor de la memoria de esa variable
+func main() {
+	color := "rojo"
+	fmt.Println(&color)
+}
+
+/*
 import (
 	"fmt"
 	"reflect"
 )
-
 // reclect y TypeOf
 // reflec.typeOf sirve para ver que tipo de dato es  string, entero, float etc...
 func main() {
 	var string1 string = "algo ñangú"
 	fmt.Println(reflect.TypeOf(string1))
 }
-
+*/
 /*
 //tipos de datos
 func main() {
